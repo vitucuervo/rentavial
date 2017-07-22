@@ -13,12 +13,12 @@ var processors = [
 ];
 
 gulp.task('fileinclude', function() {
-  return gulp.src('dev/index.html')
-    .pipe(fileinclude({
-      prefix: '@@',
-      basepath: './dev/'
-    }))
-    .pipe(gulp.dest('prod'));
+	return gulp.src('dev/index.html')
+		.pipe(fileinclude({
+			prefix: '@@',
+			basepath: './dev/'
+		}))
+		.pipe(gulp.dest('prod'));
 });
 
 gulp.task('css', function() {
@@ -30,6 +30,16 @@ gulp.task('css', function() {
 		}))
 });
 
+gulp.task('js', function() {
+	return gulp.src('dev/js/**/*')
+		.pipe(gulp.dest('prod/js'))
+});
+
+gulp.task('images', function() {
+	return gulp.src('dev/images/**/*')
+		.pipe(gulp.dest('prod/images'))
+});
+
 gulp.task('browserSync', function() {
 	browserSync.init({
 		server: {
@@ -38,7 +48,9 @@ gulp.task('browserSync', function() {
 	})
 });
 
-gulp.task('watch', ['browserSync', 'css', 'fileinclude'], function() {
+gulp.task('watch', ['browserSync', 'css', 'fileinclude', 'images', 'js'], function() {
 	gulp.watch('dev/**/*.css', ['css']);
-	gulp.watch('dev/*.html', ['fileinclude']);
+	gulp.watch('dev/**/*.html', ['fileinclude']);
+	gulp.watch('dev/**/*', ['images']);
+	gulp.watch('dev/**/*.js', ['js']);
 });
