@@ -1,0 +1,159 @@
+@media (--small-viewport) {
+	.results-container {
+		margin: 0;
+	}
+
+	.flight-card {
+		border-radius: 0;
+		display: block;
+		margin-bottom: 5px;
+
+		.detail {
+			border-radius: 0;
+			display: block;
+			padding-bottom: 0;
+		}
+
+		.pricebox {
+			border-radius: 0;
+			display: block;
+			width: 100%;
+			padding: 10px;
+		}
+
+		.section {
+
+			.title {
+				padding: 5px 10px;
+			}
+
+			.info {
+
+				> li {
+					padding: 5px 10px;
+				}
+
+				.departure, .arrival {
+					font-size: 13px;
+
+					.city {
+						font-size: 10px;
+					}
+				}
+
+				.duration {
+					.duration-time {
+						font-size: 12px;
+					}
+					.duration-stops {
+						ul {
+							margin-top: 5px;
+						}
+					}
+				}
+			}
+		}
+
+		.options {
+			display: none;
+		}
+
+		.pricebox {
+			@mixin clearfix;
+
+			.info {
+				float: left;
+				width: 50%;
+				display: block;
+
+				.info-trip {
+					float: none;
+					display: inline;
+					width: auto;
+					margin-bottom: 5px; 
+
+					.class {
+						display: inline;
+						font-size: 13px;
+						margin-left: 10px;
+						position: relative;
+						top: 6px;
+					}
+
+					.fees {
+						display: none;
+					}
+				}
+
+
+				.info-user {
+					display: inline-block;
+					float: left;
+					text-align: left;
+					width: auto;
+
+					> li {
+						float: left;
+					}
+
+					.info-user-favourite {
+						display: none;
+					}
+
+					.info-user-rate {
+						> p {
+							display: inline-block;
+							position: relative;
+							top: -5px;
+							font-size: 14px;
+						}
+
+						.rate-tooltip {
+							display: none;
+						}
+					}
+				}
+			}
+
+			.action {
+				position: relative;
+				bottom: 0;
+				float: right;
+				width: 50%;
+				display: block;
+				right: auto;
+				left: auto;
+				padding-right: 20px;
+
+				&:before {
+					content: '\203A';
+					display: block;
+					position: absolute;
+					right: 0;
+					top: 50%;
+					margin-top: 0;
+					font-size: 32px;
+					color: var(--black);
+					font-weight: bold;
+					line-height: 0;
+				}
+
+				.prices {
+					margin-bottom: 0;
+
+					[class*="mm-icon"] {
+						display: none;
+					}
+				}
+
+				.price-total {
+					display: none;
+				}
+
+				.button {
+					display: none;
+				}
+			}
+		}
+	}
+}

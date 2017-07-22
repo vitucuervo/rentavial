@@ -1,0 +1,14 @@
+a {
+	color: var(--gray-light);
+	cursor: pointer;
+	text-decoration: none;
+
+	&:hover, &:active {
+  		color: var(--gray-dark);
+  		text-decoration: underline;
+	}
+
+	&:visited {
+		color: var(--gray-light);
+	}
+}
