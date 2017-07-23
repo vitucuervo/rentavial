@@ -1,11 +1,14 @@
+:root {
+	--wrapper-width: 1184px;
+}
+
 html{
-	font-size: 14px;
-	background-color: var(--black);
+	font-size: 16px;
 }
 
 body{
 	margin: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -19,4 +22,9 @@ body{
 		-webkit-box-sizing: border-box;
 		-o-box-sizing: border-box;
 	}
+}
+
+.wrapper {
+	width: var(--wrapper-width);
+	margin: 0 auto;
 }

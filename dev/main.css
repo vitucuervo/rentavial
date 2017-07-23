@@ -1,14 +1,14 @@
 /* Settings */
+@import "settings/font.css";
 @import "settings/reset.css";
 @import "settings/base.css";
 @import "settings/normalize.css";
 @import "settings/lists.css";
 @import "settings/links.css";
 @import "settings/colors.css";
+@import "settings/media.css";
 @import "settings/clearfix.css";
 @import "settings/tooltip.css";
-@import "settings/screen-size.css";
 
 /* Components */
-@import "components/flight-card.css";
-@import "components/flight-card-responsive.css";
+@import "components/navigation/navigation.css";

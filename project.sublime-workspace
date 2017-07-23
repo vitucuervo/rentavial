@@ -15,17 +15,42 @@
 			"file": "gulpfile.js",
 			"settings":
 			{
-				"buffer_size": 926,
+				"buffer_size": 1271,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "dev/components/flight-card.css",
+			"file": "dev/components/header/header.html",
 			"settings":
 			{
-				"buffer_size": 8033,
+				"buffer_size": 89,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/index.html",
+			"settings":
+			{
+				"buffer_size": 4810,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/nav.html",
+			"settings":
+			{
+				"buffer_size": 179,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/pene.html",
+			"settings":
+			{
+				"buffer_size": 191,
 				"line_ending": "Windows"
 			}
 		}
@@ -71,12 +96,16 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Administrador/Desktop/rentavial"
+		"/C/Users/Administrador/Desktop/rentavial",
+		"/C/Users/Administrador/Desktop/rentavial/dev",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components",
+		"/C/Users/Administrador/Desktop/rentavial/prod"
 	],
 	"file_history":
 	[
-		"/C/Users/Administrador/Desktop/rentavial/dev/main.css",
 		"/C/Users/Administrador/Desktop/rentavial/package.json",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/flight-card.css",
+		"/C/Users/Administrador/Desktop/rentavial/dev/main.css",
 		"/C/Users/Administrador/Desktop/rentavial/app.js",
 		"/C/Users/Administrador/Desktop/rentavial/prod/index.html",
 		"/C/Users/Administrador/Desktop/rentavial/dev/nav.html",
@@ -106,6 +135,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"images",
+			"nav",
 			"elements",
 			"generic",
 			"tools"
@@ -126,7 +157,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -135,15 +166,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 926,
+						"buffer_size": 1271,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								724,
-								724
+								108,
+								108
 							]
 						],
 						"settings":
@@ -156,37 +187,169 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "dev/components/flight-card.css",
+					"file": "dev/components/header/header.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8033,
+						"buffer_size": 89,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								358,
-								358
+								83,
+								83
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
-							"syntax": "Packages/Syntax Highlighting for PostCSS/Syntaxes/PostCSS.tmLanguage",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "dev/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4810,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								528,
+								528
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "dev/nav.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								179,
+								179
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "dev/pene.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 191,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9,
+								9
+							],
+							[
+								25,
+								25
+							],
+							[
+								41,
+								41
+							],
+							[
+								57,
+								57
+							],
+							[
+								73,
+								73
+							],
+							[
+								89,
+								89
+							],
+							[
+								105,
+								105
+							],
+							[
+								121,
+								121
+							],
+							[
+								137,
+								137
+							],
+							[
+								153,
+								153
+							],
+							[
+								169,
+								169
+							],
+							[
+								185,
+								185
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -198,7 +361,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 30.0
 	},
 	"layout":
 	{

@@ -18,7 +18,10 @@ gulp.task('fileinclude', function() {
 			prefix: '@@',
 			basepath: './dev/'
 		}))
-		.pipe(gulp.dest('prod'));
+		.pipe(gulp.dest('prod'))
+		.pipe(browserSync.reload({
+			stream: true
+		}))
 });
 
 gulp.task('css', function() {
