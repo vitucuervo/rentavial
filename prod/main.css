@@ -374,12 +374,16 @@ a:visited {
 /* Components */
 /* Navigation */
 .navigation {
-    background-color: rgba(black, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     padding: 10px 0;
-    top: 0;
     top: -webkit-sticky;
     right: -webkit-sticky;
     bottom: -webkit-sticky;
     left: -webkit-sticky;
     position: sticky;
+    top: 0;
+    border-bottom: 10px solid green;
+    font-size: 10px;
+    border-top: 10px solid blue;
+    border-radius: 10px;
 }
