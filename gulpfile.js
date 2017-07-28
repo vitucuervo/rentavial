@@ -6,11 +6,10 @@ var	fileinclude = require('gulp-file-include'),
 var processors = [
 	require('precss')(),
 	require('postcss-cssnext')(),
-	require('postcss-quantity-queries')(),
-	require('postcss-short')(),
-	require('postcss-mixins')(),
-	require('postcss-custom-media')
-    require("postcss-color-function")(),
+	//require('postcss-quantity-queries')(),
+	//require('postcss-short')(),
+	//require('postcss-mixins')(),
+	//require('postcss-custom-media'),
 	require("postcss-apply")(),
     require("postcss-nesting")(),
     require("postcss-media-minmax")(),
@@ -20,9 +19,8 @@ var processors = [
     require("postcss-selector-matches")({ lineBreak: true }),
     require("postcss-selector-not")(),
     require("postcss-calc")({ precision: 5 }),
-    require("css-mqpacker")({ sort: true }),
-    require("autoprefixer")({ browsers: ["ie > 9", "Chrome > 28", "Firefox > 35", "iOS >= 8"] }),
-    require("cssnano")({ safe: true, calc: false, autoprefixer: false })
+    require("postcss-color-function")(),
+    require("postcss-remove-root")()
 ];
 
 gulp.task('fileinclude', function() {

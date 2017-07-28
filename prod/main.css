@@ -137,7 +137,7 @@ abbr[title] {
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
 b, strong {
-    font-weight: 700;
+    font-weight: bold;
 }
 /**
  * Address styling not present in Safari 5 and Chrome.
@@ -376,10 +376,7 @@ a:visited {
 .navigation {
     background-color: rgba(0, 0, 0, 0.2);
     padding: 10px 0;
-    top: -webkit-sticky;
-    right: -webkit-sticky;
-    bottom: -webkit-sticky;
-    left: -webkit-sticky;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     border-bottom: 10px solid green;
