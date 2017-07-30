@@ -1,11 +1,45 @@
 /* Navigation */
 .navigation {
 	background-color: color(var(--black) a(20%));
-	padding: 10px 0;
-	position: sticky;
+	position: fixed;
 	top: 0;
-	border-bottom: 10px solid green;
-	font-size: 10px;
-	border-top: 10px solid blue;
-	border-radius: 10px;
+	right: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.navigation-inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navigation-logo {
+	display: block;
+	padding: 12px 0;
+
+	img {
+		height: 40px;
+		width: auto;
+	}
+}
+
+.navigation-list {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.navigation-link {
+	display: block;
+	padding: 16px 12px;
+	font-size: 12px;
+	color: var(--white);
+	text-transform: uppercase;
+	transition-property: color;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
+
+	&:hover {
+		color: var(--orange);
+	}
 }

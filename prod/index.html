@@ -5,23 +5,53 @@
 		<title>Rentavial</title>
 		<link rel="stylesheet" href="/main.css">
 		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+		<script type="text/javascript" src="./js/owl/owl.carousel.js"></script>
 	</head>
 	<body>
+		
 		<div class="navigation">
 	<div class="wrapper">
-		<ul>
-			<li><a href="">Inicio</a></li>
-			<li><a href="">Nosotros</a></li>
-			<li><a href="">Transportes</a></li>
-			<li><a href="">Suelos</a></li>
-			<li><a href="">Reparaciones</a></li>
-			<li><a href="">Maquinarias</a></li>
-			<li><a href="">Contacto</a></li>
-		</ul>
+		<div class="navigation-inner">
+			<h1 class="navigation-logo"><img src="./images/logo-light.svg" alt="Logo Rentavial" title="Rentavial"></h1>
+			<ul class="navigation-list">
+				<li><a class="navigation-link" href="">Inicio</a></li>
+				<li><a class="navigation-link" href="">Nosotros</a></li>
+				<li><a class="navigation-link" href="">Transportes</a></li>
+				<li><a class="navigation-link" href="">Suelos</a></li>
+				<li><a class="navigation-link" href="">Reparaciones</a></li>
+				<li><a class="navigation-link" href="">Maquinarias</a></li>
+				<li><a class="navigation-link" href="">Contacto</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+		<div class="hero">
+	<div class="owl-carousel owl-theme">
+	    <div class="hero-item item" style="background-image: url(./images/hero/01.jpg)"></div>
+	    <div class="hero-item item" style="background-image: url(./images/hero/02.jpg)"></div>
+	    <div class="hero-item item" style="background-image: url(./images/hero/03.jpg)"></div>
+	    <div class="hero-item item" style="background-image: url(./images/hero/04.jpg)"></div>
+	    <div class="hero-item item" style="background-image: url(./images/hero/05.jpg)"></div>
+	    <div class="hero-item item" style="background-image: url(./images/hero/06.jpg)"></div>
 	</div>
 </div>
 
 		
-
+		<script>
+			// Settings hero slider
+			$('.owl-carousel').owlCarousel({
+			    loop:true,
+			    navText: false,
+			    margin:0,
+			    nav:true,
+			    dots: false,
+			    responsive:{
+			        0:{
+			            items:1
+			        }
+			    }
+			})
+		</script>
 	</body>
 </html>

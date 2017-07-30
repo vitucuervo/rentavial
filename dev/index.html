@@ -5,10 +5,27 @@
 		<title>Rentavial</title>
 		<link rel="stylesheet" href="/main.css">
 		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+		<script type="text/javascript" src="./js/owl/owl.carousel.js"></script>
 	</head>
 	<body>
-		@@include('components/navigation/navigation.html')
 		
-
+		@@include('components/navigation/navigation.html')
+		@@include('components/hero/hero.html')
+		
+		<script>
+			// Settings hero slider
+			$('.owl-carousel').owlCarousel({
+			    loop:true,
+			    navText: false,
+			    margin:0,
+			    nav:true,
+			    dots: false,
+			    responsive:{
+			        0:{
+			            items:1
+			        }
+			    }
+			})
+		</script>
 	</body>
 </html>

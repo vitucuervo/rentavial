@@ -4,11 +4,6 @@ a {
 	text-decoration: none;
 
 	&:hover, &:active {
-  		color: var(--black);
-  		text-decoration: underline;
-	}
-
-	&:visited {
-		color: var(--black);
+  		color: inherit;
 	}
 }
