@@ -2,8 +2,9 @@ a {
 	color: var(--black);
 	cursor: pointer;
 	text-decoration: none;
+	outline: none;
 
-	&:hover, &:active {
-  		color: inherit;
+	&:hover, &:active, &:focus {
+		outline: none;
 	}
 }

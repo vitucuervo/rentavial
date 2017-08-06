@@ -6,11 +6,14 @@
 		<link rel="stylesheet" href="/main.css">
 		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 		<script type="text/javascript" src="./js/owl/owl.carousel.js"></script>
+		<script type="text/javascript" src="./js/navigation/navigation.js"></script>
 	</head>
 	<body>
 		
 		@@include('components/navigation/navigation.html')
 		@@include('components/hero/hero.html')
+		@@include('components/about/about.html')
+		@@include('components/transport/transport.html')
 		
 		<script>
 			// Settings hero slider
@@ -20,6 +23,9 @@
 			    margin:0,
 			    nav:true,
 			    dots: false,
+			    autoplay: true,
+			    autoplayTimeout: 7500,
+			    smartSpeed: 750,
 			    responsive:{
 			        0:{
 			            items:1

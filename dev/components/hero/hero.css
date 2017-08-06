@@ -21,7 +21,7 @@
 		transition-timing-function: ease-in-out;
 
 		&:hover {
-			background-color: color(var(--black) a(20%));
+			background-color: color(var(--white) a(20%));
 			opacity: 0.90;
 		}
 	}

@@ -1,0 +1,23 @@
+/* Transport */
+.transport {
+	background-image: url("./images/transport/transport.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+	&.section {
+		align-items: stretch;
+	}
+}
+
+.transport-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.transport-aside {
+	flex-grow: 1;
+	width: 60%;
+	padding: 60px 25px;
+	background-color: color(var(--black) a(75%));
+}

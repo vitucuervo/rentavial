@@ -8,8 +8,10 @@
 @import "settings/colors.css";
 @import "settings/media.css";
 @import "settings/clearfix.css";
-@import "settings/tooltip.css";
+@import "settings/section.css";
 
 /* Components */
 @import "components/navigation/navigation.css";
 @import "components/hero/hero.css";
+@import "components/about/about.css";
+@import "components/transport/transport.css";

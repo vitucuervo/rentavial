@@ -1,0 +1,47 @@
+/* Common section styles */
+.section {
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.section-content {
+	padding: 50px 20px;
+}
+
+.section-title {
+	font-size: 28px;
+	color: var(--black);
+	font-weight: 700;
+	position: relative;
+	padding-bottom: 25px;
+	margin-bottom: 40px;
+
+	&:before {
+		content: '';
+		width: 40px;
+		height: 3px;
+		background-color: var(--orange);
+		position: absolute;
+		left: 0;
+		bottom: 0;
+	}
+
+	&.secondary {
+		color: var(--white);
+	}
+}
+
+.section-paragraph {
+	font-size: 14px;
+	line-height: 1.5;
+	color: var(--black-secondary);
+
+	&.secondary {
+		color: var(--white-secondary);
+	}
+
+	p:not(:first-child) {
+		margin-top: 15px;
+	}
+}

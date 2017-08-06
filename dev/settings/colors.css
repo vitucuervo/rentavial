@@ -2,4 +2,6 @@
   --black: #000000;
   --white: #FFFFFF;
   --orange: #ee7d00;
+  --black-secondary: color(var(--black) a(75%));
+  --white-secondary: color(var(--white) a(75%));
 }
