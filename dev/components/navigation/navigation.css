@@ -12,7 +12,7 @@
 		transition-property: transform;
 		transition-duration: 0.25s;
 		transition-timing-function: ease-in-out;
-		padding: 15px;
+		padding: 10px;
 		
 		@nest
 		.is-expanded & {
@@ -62,11 +62,11 @@
 		opacity: 0;
 		transition-property: opacity, width;
 		transition-duration: 0.5s;
-		transition-timing-function: ease-in-out;
+		transition-timing-function: ease-in-out;	
+	}
 
-		@media (--mq-range-max-medium) {
-			display: none;
-		}	
+	@media (--mq-range-min-medium) {
+		padding: 20px 0;
 	}
 
 	@media (--mq-range-min-large) {

@@ -1,7 +1,6 @@
 /* Common section styles */
 .section {
 	display: flex;
-	align-items: center;
 	min-height: 100vh;
 }
 
@@ -9,7 +8,11 @@
 	padding: 45px 10px;
 
 	@media (--mq-range-min-medium) {
-		padding: 60px 20px;
+		padding: 75px 20px;
+	}
+
+	@media (--mq-range-min-medium) {
+		padding: 90px 20px;
 	}
 }
 
@@ -36,6 +39,10 @@
 	}
 
 	@media (--mq-range-min-medium) {
+		font-size: 24px;
+	}
+
+	@media (--mq-range-min-large) {
 		font-size: 28px;
 	}
 }

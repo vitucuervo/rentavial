@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"transi",
+				"transition-duration: "
+			],
+			[
+				"mar",
+				"margin-right: "
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"fl",
+				"flex-direction: "
+			],
+			[
 				"fle",
 				"flex-grow: "
 			],
@@ -38,14 +54,6 @@
 			[
 				"column",
 				"column-count: "
-			],
-			[
-				"mar",
-				"margin-top: "
-			],
-			[
-				"fl",
-				"flex-grow: "
 			],
 			[
 				"fo",
@@ -99,7 +107,7 @@
 			"file": "dev/main.css",
 			"settings":
 			{
-				"buffer_size": 508,
+				"buffer_size": 548,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -117,7 +125,60 @@
 			"file": "dev/settings/section.css",
 			"settings":
 			{
-				"buffer_size": 662,
+				"buffer_size": 836,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/components/navigation/navigation.html",
+			"settings":
+			{
+				"buffer_size": 500,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/components/navigation/navigation.css",
+			"settings":
+			{
+				"buffer_size": 1464,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/settings/media.css",
+			"settings":
+			{
+				"buffer_size": 1118,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/components/header/header.html",
+			"settings":
+			{
+				"buffer_size": 341,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/components/header/header.css",
+			"settings":
+			{
+				"buffer_size": 1079,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/settings/base.css",
+			"settings":
+			{
+				"buffer_size": 520,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -126,7 +187,7 @@
 			"file": "dev/index.html",
 			"settings":
 			{
-				"buffer_size": 939,
+				"buffer_size": 1002,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -135,7 +196,7 @@
 			"file": "dev/components/transport/transport.html",
 			"settings":
 			{
-				"buffer_size": 2154,
+				"buffer_size": 2158,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -144,7 +205,7 @@
 			"file": "dev/components/transport/transport.css",
 			"settings":
 			{
-				"buffer_size": 402,
+				"buffer_size": 579,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -195,6 +256,7 @@
 		"/C/Users/Administrador/Desktop/rentavial/dev",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/about",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/header",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/hero",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/navigation",
 		"/C/Users/Administrador/Desktop/rentavial/dev/js",
@@ -203,14 +265,17 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Administrador/Desktop/rentavial/dev/js/navigation/navigation.js",
+		"/C/Users/Administrador/Desktop/rentavial/dev/settings/base.css",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/about/about.css",
+		"/C/Users/Administrador/Desktop/rentavial/dev/settings/media.css",
+		"/C/Users/Administrador/Dropbox/backup-pheegooz/views/index.html",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/hero/hero.html",
 		"/C/Users/Administrador/Desktop/rentavial/prod/index.html",
 		"/C/Users/Administrador/Desktop/rentavial/prod/main.css",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/about/about.html",
-		"/C/Users/Administrador/Desktop/rentavial/dev/components/about/about.css",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/navigation/navigation.css",
-		"/C/Users/Administrador/Desktop/rentavial/dev/components/hero/hero.html",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/navigation/navigation.html",
-		"/C/Users/Administrador/Desktop/rentavial/dev/js/navigation/navigation.js",
 		"/C/Users/Administrador/Desktop/rentavial/dev/settings/links.css",
 		"/C/Users/Administrador/Downloads/index.html",
 		"/C/Users/Administrador/Desktop/rentavial/dev/js/pop.js",
@@ -219,7 +284,6 @@
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/owl/owl.carousel.css",
 		"/C/Users/Administrador/Desktop/rentavial/dev/js/owl/owl.carousel.min.js",
 		"/C/Users/Administrador/Desktop/rentavial/gulpfile.js",
-		"/C/Users/Administrador/Desktop/rentavial/dev/settings/base.css",
 		"/C/Users/Administrador/Downloads/as-20170722T090833Z-001/as/styles/settings/_layout.pcss",
 		"/C/Users/Administrador/Downloads/widget-20170728T194338Z-001/widget/gulpfile.js",
 		"/C/Users/Administrador/Downloads/widget-20170728T194338Z-001/widget/src/postcss-config.js",
@@ -268,6 +332,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"medium",
+			"4px",
+			"2px",
+			"navigation",
 			"75",
 			"black",
 			"__",
@@ -312,7 +380,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -321,19 +389,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 508,
+						"buffer_size": 548,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								492,
-								492
-							],
-							[
-								502,
-								502
+								196,
+								196
 							]
 						],
 						"settings":
@@ -345,7 +409,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -380,7 +444,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
@@ -389,15 +453,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 662,
+						"buffer_size": 836,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								96,
-								96
+								187,
+								187
 							]
 						],
 						"settings":
@@ -406,27 +470,27 @@
 							"syntax": "Packages/Syntax Highlighting for PostCSS/Syntaxes/PostCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 6.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "dev/index.html",
+					"file": "dev/components/navigation/navigation.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 939,
+						"buffer_size": 500,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								114,
-								114
+								0,
+								0
 							]
 						],
 						"settings":
@@ -439,24 +503,83 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "dev/components/transport/transport.html",
+					"file": "dev/components/navigation/navigation.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2154,
+						"buffer_size": 1464,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								68,
-								85
+								353,
+								353
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
+							"syntax": "Packages/Syntax Highlighting for PostCSS/Syntaxes/PostCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "dev/settings/media.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								723,
+								744
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "dev/components/header/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								196,
+								212
 							]
 						],
 						"settings":
@@ -473,20 +596,148 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "dev/components/transport/transport.css",
+					"buffer": 7,
+					"file": "dev/components/header/header.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 402,
+						"buffer_size": 1079,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								329,
-								329
+								266,
+								266
+							],
+							[
+								395,
+								395
+							],
+							[
+								491,
+								491
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
+							"syntax": "Packages/Syntax Highlighting for PostCSS/Syntaxes/PostCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "dev/settings/base.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "dev/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1002,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								714,
+								714
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "dev/components/transport/transport.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2158,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								208,
+								208
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "dev/components/transport/transport.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								403,
+								435
 							]
 						],
 						"settings":
@@ -498,7 +749,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 10,
 					"type": "text"
 				}
 			]

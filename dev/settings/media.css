@@ -9,22 +9,22 @@
  */
 @custom-media --mq-range-base (width < 560px);
 @custom-media --mq-range-small (560px <= width < 768px);
-@custom-media --mq-range-medium (768px <= width < 1100px);
-@custom-media --mq-range-large (width >= 1100px);
+@custom-media --mq-range-medium (768px <= width < 990px);
+@custom-media --mq-range-large (width >= 990px);
 
 /**
  * Viewport minimum ranges
  */
 @custom-media --mq-range-min-small (width >= 560px);
 @custom-media --mq-range-min-medium (width >= 768px);
-@custom-media --mq-range-min-large (width >= 1100px);
+@custom-media --mq-range-min-large (width >= 990px);
 
 /**
  * Viewport maximum ranges
  */
 @custom-media --mq-range-max-base (width < 560px);
 @custom-media --mq-range-max-small (width < 768px);
-@custom-media --mq-range-max-medium (width < 1100px);
+@custom-media --mq-range-max-medium (width < 990px);
 
 /**
  * Media type

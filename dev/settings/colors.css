@@ -1,5 +1,6 @@
 :root {
   --black: #000000;
+  --dark-gray: #222222;
   --white: #FFFFFF;
   --orange: #ee7d00;
   --black-secondary: color(var(--black) a(75%));

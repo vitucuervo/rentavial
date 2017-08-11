@@ -18,11 +18,17 @@
 .transport-aside {
 	flex-grow: 1;
 	width: 100%;
-	padding: 60px 25px;
+	padding: 60px 10px;
 	background-color: color(var(--black) a(75%));
 
 	@media (--mq-range-min-medium) {
+		width: 75%;
+		padding: 75px 25px;
+	}
+
+	@media (--mq-range-min-large) {
 		width: 60%;
+		padding: 90px 25px;
 	}
 }
 
