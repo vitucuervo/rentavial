@@ -49,6 +49,9 @@ body * {
     -webkit-box-sizing: border-box;
     -o-box-sizing: border-box;
 }
+.scroll-block {
+    overflow: hidden;
+}
 .wrapper {
     width: 100%;
     margin: 0 auto;

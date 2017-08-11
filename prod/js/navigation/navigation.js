@@ -13,7 +13,8 @@ $(document).on('ready', function(){
     });
 
     $('.header-hamburger').click(function(){
-        $(this).parent().toggleClass('is-expanded')
+        $(this).parent().toggleClass('is-expanded');
+        $('body').toggleClass('scroll-block');
     });    
     
 });

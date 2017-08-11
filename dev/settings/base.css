@@ -24,6 +24,10 @@ body{
 	}
 }
 
+.scroll-block {
+	overflow: hidden;	
+}
+
 .wrapper {
 	width: 100%;
 	margin: 0 auto;
