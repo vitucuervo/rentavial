@@ -6,11 +6,15 @@
 }
 
 .section-content {
-	padding: 50px 20px;
+	padding: 45px 10px;
+
+	@media (--mq-range-min-medium) {
+		padding: 60px 20px;
+	}
 }
 
 .section-title {
-	font-size: 28px;
+	font-size: 20px;
 	color: var(--black);
 	font-weight: 700;
 	position: relative;
@@ -30,10 +34,14 @@
 	&.secondary {
 		color: var(--white);
 	}
+
+	@media (--mq-range-min-medium) {
+		font-size: 28px;
+	}
 }
 
 .section-paragraph {
-	font-size: 14px;
+	font-size: 12px;
 	line-height: 1.5;
 	color: var(--black-secondary);
 
@@ -43,5 +51,9 @@
 
 	p:not(:first-child) {
 		margin-top: 15px;
+	}
+
+	@media (--mq-range-min-medium) {
+		font-size: 14px;
 	}
 }

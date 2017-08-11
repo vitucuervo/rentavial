@@ -17,7 +17,20 @@
 
 .transport-aside {
 	flex-grow: 1;
-	width: 60%;
+	width: 100%;
 	padding: 60px 25px;
 	background-color: color(var(--black) a(75%));
+
+	@media (--mq-range-min-medium) {
+		width: 60%;
+	}
+}
+
+.transport-description {
+
+	@media (--mq-range-min-medium) {
+		flex-basis: 70%;
+		column-count: 2;
+		column-gap: 50px;
+	}
 }

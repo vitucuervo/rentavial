@@ -25,6 +25,7 @@ body{
 }
 
 .wrapper {
-	width: var(--wrapper-width);
+	width: 100%;
 	margin: 0 auto;
+	max-width: var(--wrapper-width);
 }

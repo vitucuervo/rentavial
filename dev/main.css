@@ -11,6 +11,7 @@
 @import "settings/section.css";
 
 /* Components */
+@import "components/header/header.css";
 @import "components/navigation/navigation.css";
 @import "components/hero/hero.css";
 @import "components/about/about.css";

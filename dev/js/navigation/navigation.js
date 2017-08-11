@@ -11,5 +11,9 @@ $(document).on('ready', function(){
     	$(this).parent().siblings().removeClass('is-active');
     	$(this).parent().addClass('is-active');
     });
+
+    $('.header-hamburger').click(function(){
+        $(this).parent().toggleClass('is-expanded')
+    });    
     
 });
