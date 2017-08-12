@@ -10,7 +10,7 @@
 
 .about-title {
 
-	@media (--mq-range-min-medium) {
+	@media (--mq-range-min-large) {
 		flex-basis: 30%;
 	}
 }
@@ -18,8 +18,11 @@
 .about-description {
 
 	@media (--mq-range-min-medium) {
-		flex-basis: 70%;
 		column-count: 2;
 		column-gap: 50px;
+	}
+
+	@media (--mq-range-min-medium) {
+		flex-basis: 70%;
 	}
 }
