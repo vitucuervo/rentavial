@@ -4,32 +4,68 @@
 		"selected_items":
 		[
 			[
+				"fle",
+				"flex-basis: "
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"padi",
+				"padding-right"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"trans",
+				"transition-delay: "
+			],
+			[
+				"text",
+				"text-shadow"
+			],
+			[
+				"bac",
+				"background-image: "
+			],
+			[
+				"te",
+				"text-shadow: "
+			],
+			[
+				"ba",
+				"background-color: "
+			],
+			[
+				"p",
+				"padding-bottom: "
+			],
+			[
+				"equi",
+				"equipment-item"
+			],
+			[
 				"ove",
 				"overflow-y"
 			],
 			[
-				"bac",
-				"background-color: "
-			],
-			[
-				"trans",
-				"transform-origin: "
-			],
-			[
-				"fon",
-				"font-weight: "
-			],
-			[
-				"mar",
-				"margin-bottom: "
-			],
-			[
 				"fl",
 				"flex-wrap: "
-			],
-			[
-				"pa",
-				"padding: "
 			],
 			[
 				"transi",
@@ -40,20 +76,12 @@
 				"border-top"
 			],
 			[
-				"fle",
-				"flex-grow: "
-			],
-			[
 				"ali",
 				"align-items: "
 			],
 			[
 				"ma",
 				"margin-bottom: "
-			],
-			[
-				"ba",
-				"background-repeat: "
 			],
 			[
 				"tr",
@@ -88,10 +116,6 @@
 				"transition-property: "
 			],
 			[
-				"text",
-				"text-transform"
-			],
-			[
 				"z",
 				"z-index"
 			],
@@ -112,15 +136,6 @@
 	"buffers":
 	[
 		{
-			"file": "dev/main.css",
-			"settings":
-			{
-				"buffer_size": 586,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "dev/settings/colors.css",
 			"settings":
 			{
@@ -130,55 +145,10 @@
 			}
 		},
 		{
-			"file": "dev/settings/section.css",
+			"file": "dev/main.css",
 			"settings":
 			{
-				"buffer_size": 930,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dev/components/navigation/navigation.html",
-			"settings":
-			{
-				"buffer_size": 522,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dev/components/navigation/navigation.css",
-			"settings":
-			{
-				"buffer_size": 1463,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dev/components/about/about.css",
-			"settings":
-			{
-				"buffer_size": 363,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dev/settings/base.css",
-			"settings":
-			{
-				"buffer_size": 559,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dev/components/header/header.html",
-			"settings":
-			{
-				"buffer_size": 347,
+				"buffer_size": 676,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -187,25 +157,7 @@
 			"file": "dev/index.html",
 			"settings":
 			{
-				"buffer_size": 1267,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dev/components/works/works.html",
-			"settings":
-			{
-				"buffer_size": 3356,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dev/components/works/works.css",
-			"settings":
-			{
-				"buffer_size": 2141,
+				"buffer_size": 1467,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -216,6 +168,32 @@
 			{
 				"buffer_size": 547,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/js/navigation/navigation.js",
+			"settings":
+			{
+				"buffer_size": 1903,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/components/contact/contact.css",
+			"settings":
+			{
+				"buffer_size": 992,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/settings/animations.css",
+			"settings":
+			{
+				"buffer_size": 400,
 				"line_ending": "Windows"
 			}
 		}
@@ -264,27 +242,56 @@
 		"/C/Users/Administrador/Desktop/rentavial",
 		"/C/Users/Administrador/Desktop/rentavial/dev",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components",
-		"/C/Users/Administrador/Desktop/rentavial/dev/components/about",
-		"/C/Users/Administrador/Desktop/rentavial/dev/components/header",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/contact",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/equipment",
 		"/C/Users/Administrador/Desktop/rentavial/dev/js",
-		"/C/Users/Administrador/Desktop/rentavial/dev/js/works",
+		"/C/Users/Administrador/Desktop/rentavial/dev/js/navigation",
+		"/C/Users/Administrador/Desktop/rentavial/dev/js/section",
 		"/C/Users/Administrador/Desktop/rentavial/dev/settings"
 	],
 	"file_history":
 	[
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/navigation/navigation.html",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/about/about.css",
+		"/C/Users/Administrador/Desktop/rentavial/dev/settings/animations.css",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/works/works.css",
+		"/C/Users/Administrador/Desktop/rentavial/dev/settings/section.css",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/equipment/equipment.css",
+		"/C/Users/Administrador/Desktop/momondo/dev/components/flight-card.css",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/contact/contact.html",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/contact/contact.css",
+		"/C/Users/Administrador/Desktop/momondo/dev/main.css",
+		"/C/Users/Administrador/Desktop/momondo/dev/tools/clearfix.css",
+		"/C/Users/Administrador/Downloads/- Work/momondo/momondo/prod/main.css",
+		"/C/Users/Administrador/Downloads/- Work/momondo/momondo/dev/main.css",
+		"/C/Users/Administrador/Downloads/- Work/momondo/momondo/prod/index.html",
+		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/styles/settings/_shadow.pcss",
+		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/form-controls/components/tab-strip/tab-strip.pcss",
+		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/form-controls/components/date-selector/date-selector.pcss",
+		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/form-controls/components/tab-strip/tab-strip-item.pcss",
+		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/form-controls/components/button/themes/_theme-negative.pcss",
+		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/form-controls/components/button/button-group/button-group.pcss",
+		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/styles/animations/_fade.pcss",
+		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/styles/animations/_animations.pcss",
+		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/styles/settings/_typography.pcss",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/equipment/equipment.html",
+		"/C/Users/Administrador/Desktop/rentavial/dev/js/equipment/equipment.js",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/navigation/navigation.css",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/header/header.css",
+		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/styles/bases/_b-layout.pcss",
+		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/styles/settings/_layout.pcss",
+		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/styles/settings/_gradient.pcss",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/transport/transport.css",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/works/works.html",
+		"/C/Users/Administrador/Desktop/rentavial/dev/js/section/section.js",
+		"/C/Users/Administrador/Desktop/rentavial/dev/settings/base.css",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/header/header.html",
 		"/C/Users/Administrador/Desktop/rentavial/prod/main.css",
 		"/C/Users/Administrador/Desktop/rentavial/dev/js/works/works.js",
 		"/C/Users/Administrador/Desktop/rentavial/dev/js/navigation/navigation.js",
 		"/C/Users/Administrador/Dropbox/zizcate/zizcate/index.html",
-		"/C/Users/Administrador/Desktop/rentavial/dev/components/header/header.html",
-		"/C/Users/Administrador/Desktop/rentavial/dev/components/header/header.css",
-		"/C/Users/Administrador/Desktop/rentavial/dev/components/transport/transport.css",
-		"/C/Users/Administrador/Desktop/rentavial/dev/components/about/about.css",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/transport/transport.html",
 		"/C/Users/Administrador/Desktop/rentavial/dev/settings/media.css",
-		"/C/Users/Administrador/Desktop/rentavial/dev/components/navigation/navigation.html",
-		"/C/Users/Administrador/Desktop/rentavial/dev/components/navigation/navigation.css",
-		"/C/Users/Administrador/Desktop/rentavial/dev/settings/base.css",
 		"/C/Users/Administrador/Dropbox/backup-pheegooz/views/index.html",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/hero/hero.html",
 		"/C/Users/Administrador/Desktop/rentavial/prod/index.html",
@@ -301,7 +308,6 @@
 		"/C/Users/Administrador/Downloads/widget-20170728T194338Z-001/widget/gulpfile.js",
 		"/C/Users/Administrador/Downloads/widget-20170728T194338Z-001/widget/src/postcss-config.js",
 		"/C/Users/Administrador/Downloads/widget-20170728T194338Z-001/widget/src/postcss-config-dev.js",
-		"/C/Users/Administrador/Desktop/momondo/dev/components/flight-card.css",
 		"/C/Users/Administrador/Desktop/momondo/prod/main.css",
 		"/C/Users/Administrador/Desktop/rentavial/node_modules/color-convert/conversions.js",
 		"/C/Users/Administrador/Desktop/rentavial/dev/settings/screen-size.css",
@@ -330,7 +336,7 @@
 	],
 	"find":
 	{
-		"height": 22.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -344,6 +350,49 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"top;",
+			"top",
+			".nav-",
+			"} else if ($(this)[0].getBoundingClientRect().top > (sectionHeight - viewHeight)) {",
+			"} else if ($(this)[0].getBoundingClientRect().top > (viewHeight - sectionHeight)) {",
+			"} else if ($(this)[0].getBoundingClientRect().top > 0) {",
+			"} else if ($(this)[0].getBoundingClientRect().top > - viewHeight) {",
+			"} else if ($(this)[0].getBoundingClientRect().top > (viewHeight - sectionHeight)) {",
+			"} else {",
+			"addClass",
+			"toggleClass",
+			"$(this).parents().find('.header .navigation-list li').eq(index).removeClass('is-active');",
+			"addClass",
+			"#",
+			"id",
+			"about",
+			"titleHeight",
+			"active",
+			"//",
+			"top1",
+			"var",
+			"section1",
+			"<li",
+			"li",
+			"css",
+			"titleHeight",
+			"--equipment-categories-item-margin",
+			"--equipment-categories-description-area",
+			"30px",
+			" 0.1",
+			"0.5",
+			"in-viewport-animation-off",
+			"in-viewport-animation-on",
+			"equipment",
+			"about",
+			"<div class=\"equipment-item-description-inner\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet aperiam dignissimos esse illum omnis ipsa dolore, dicta iusto placeat harum reprehenderit rerum perspiciatis, facilis nulla accusantium possimus debitis quisquam quasi!\n\t\t\t\t\t</div>",
+			"works",
+			"--equipment-categories-description-area",
+			"-box\">",
+			"180px",
+			"transport",
+			"works",
+			"transport",
 			"navigation",
 			"h2Height",
 			"section",
@@ -405,39 +454,6 @@
 			[
 				{
 					"buffer": 0,
-					"file": "dev/main.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 586,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								574,
-								574
-							],
-							[
-								580,
-								580
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "dev/settings/colors.css",
 					"semi_transient": false,
 					"settings":
@@ -449,8 +465,8 @@
 						"selection":
 						[
 							[
-								144,
-								161
+								95,
+								112
 							]
 						],
 						"settings":
@@ -464,204 +480,53 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "dev/settings/section.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 930,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								120,
-								152
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
-							"syntax": "Packages/Syntax Highlighting for PostCSS/Syntaxes/PostCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "dev/components/navigation/navigation.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 522,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "dev/components/navigation/navigation.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1463,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								139,
-								139
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "dev/components/about/about.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 363,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								227,
-								227
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "dev/settings/base.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 559,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								468,
-								468
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "dev/components/header/header.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 347,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								129,
-								129
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "dev/index.html",
+					"buffer": 1,
+					"file": "dev/main.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1267,
+						"buffer_size": 676,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								568,
-								568
-							],
+								286,
+								286
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "dev/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1467,
+						"regions":
+						{
+						},
+						"selection":
+						[
 							[
-								576,
-								576
+								378,
+								378
 							]
 						],
 						"settings":
@@ -678,67 +543,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "dev/components/works/works.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3356,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2840,
-								2840
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 378.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "dev/components/works/works.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2141,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								474,
-								474
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
-							"syntax": "Packages/Syntax Highlighting for PostCSS/Syntaxes/PostCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 462.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
+					"buffer": 3,
 					"file": "dev/js/section/section.js",
 					"semi_transient": false,
 					"settings":
@@ -750,22 +555,110 @@
 						"selection":
 						[
 							[
-								505,
-								513
+								543,
+								543
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "dev/js/navigation/navigation.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1903,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								781,
+								781
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "dev/components/contact/contact.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 992,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								300,
+								300
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 42.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "dev/settings/animations.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								371,
+								333
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

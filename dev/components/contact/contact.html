@@ -1,0 +1,47 @@
+<div class="contact section" id="contact">
+	<div class="wrapper section-content contact-content">
+		
+		<div class="contact-info">
+			<div class="section-title">Contacto</div>
+			
+			<div class="section-paragraph">
+				<div class="contact-address">San Roque 1580 - (1765) Isidro Casanova
+				Provincia de Buenos Aires - Argentina</div>
+
+				<div class="contact-phone">
+					<p><strong>Telefono:</strong> (54)011-4626-1263</p>
+					<p><strong>Nextel ID:</strong> 54*558*2054/54*558*1233</p>
+					<p><strong>Movil:</strong> 11-3550-0435</p>
+				</div>
+
+				<div class="contact-email">
+					<p><strong>E-mail:</strong></p>
+					<p>contacto@rentavialsudamerica.com.ar</p> 
+					<p>rentavial@samerica.com</p>
+				</div>
+			</div>
+
+		</div>
+		<div class="contact-map">
+			<div id="map"></div>
+		</div>
+
+	</div>
+
+    <script>
+      function initMap() {
+        var uluru = {lat: -34.7403641, lng: -58.5691306};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDr-3Zs7B3Os5-6r3V-FUC9YaLAZmvZuNw&callback=initMap">
+    </script>
+</div>

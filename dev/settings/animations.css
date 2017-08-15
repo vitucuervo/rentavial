@@ -1,0 +1,20 @@
+@define-mixin in-viewport-off {
+	transition-property: transform, opacity;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
+	opacity: 0;
+	transform: translateY(60px);
+}
+
+@define-mixin in-viewport-on {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+@define-mixin in-viewport-first-delay {
+	transition-delay: 0.6s;
+}
+
+@define-mixin in-viewport-second-delay {
+	transition-delay: 0.9s;
+}

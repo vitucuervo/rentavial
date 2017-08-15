@@ -7,7 +7,7 @@
 @import "settings/links.css";
 @import "settings/colors.css";
 @import "settings/media.css";
-@import "settings/clearfix.css";
+@import "settings/animations.css";
 @import "settings/section.css";
 
 /* Components */
@@ -18,3 +18,4 @@
 @import "components/transport/transport.css";
 @import "components/works/works.css";
 @import "components/equipment/equipment.css";
+@import "components/contact/contact.css";

@@ -6,5 +6,5 @@ $(window).on('load resize scroll',function(e){
       if ($(this)[0].getBoundingClientRect().top < (viewHeight - titleHeight)) {
         $(this).parents().find('.section').eq(index).addClass('in-viewport');
       }
-  });
+ 	});
 });

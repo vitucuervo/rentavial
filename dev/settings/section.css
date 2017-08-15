@@ -17,6 +17,8 @@
 }
 
 .section-title {
+	@mixin in-viewport-off;
+	@mixin in-viewport-first-delay;
 	font-size: 20px;
 	color: var(--black);
 	font-weight: 700;
@@ -45,9 +47,16 @@
 	@media (--mq-range-min-large) {
 		font-size: 28px;
 	}
+
+	@nest
+	.in-viewport & {
+		@mixin in-viewport-on;
+	}
 }
 
 .section-paragraph {
+	@mixin in-viewport-off;
+	@mixin in-viewport-second-delay;
 	font-size: 12px;
 	line-height: 1.5;
 	color: var(--black-secondary);
@@ -62,5 +71,10 @@
 
 	@media (--mq-range-min-medium) {
 		font-size: 14px;
+	}
+
+	@nest
+	.in-viewport & {
+		@mixin in-viewport-on;
 	}
 }
