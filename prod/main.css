@@ -909,6 +909,7 @@ a:hover, a:active, a:focus {
 /* Hero */
 .hero {
     height: 100vh;
+    position: relative;
 }
 .hero .owl-prev, .hero .owl-next {
     display: block;
@@ -945,6 +946,114 @@ a:hover, a:active, a:focus {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+/* Caption morphext */
+@-webkit-keyframes fade-in {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 25%, 0);
+                transform: translate3d(0, 25%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+                transform: none;
+    }
+}
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 25%, 0);
+                transform: translate3d(0, 25%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+                transform: none;
+    }
+}
+.caption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #000000;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    z-index: 1;
+}
+@media (min-width: 560px) {
+    .caption {
+        font-size: 32px;
+    }
+}
+@media (min-width: 768px) {
+    .caption {
+        font-size: 42px;
+    }
+}
+.caption-inner {
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    padding: 0 20px;
+}
+.animated {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;/* Line bullet */
+}
+.animated:before, .animated:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    height: 75%;
+    width: 6px;
+    display: inline-block;
+    background-color: #ee7d00;
+    -webkit-transform: translateY(-50%) skewX(-15deg);
+            transform: translateY(-50%) skewX(-15deg);
+    box-shadow: 1px 1px 1px #000000;
+}
+.animated:after {
+    left: 0;
+}
+.animated:before {
+    left: 9px;
+}
+@media (min-width: 560px) {
+    .animated {
+        padding-left: 32px;
+    }
+    .animated:before, .animated:after {
+        width: 8px;
+    }
+    .animated:before {
+        left: 12px;
+    }
+}
+@media (min-width: 768px) {
+    .animated {
+        padding-left: 40px;
+    }
+    .animated:before, .animated:after {
+        width: 12px;
+    }
+    .animated:before {
+        left: 16px;
+    }
+}
+.fadeIn {
+    -webkit-animation-name: fade-in;
+            animation-name: fade-in;
+    -webkit-animation-duration: 0.75s;
+            animation-duration: 0.75s;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
 }
 /* About */
 .about-content {

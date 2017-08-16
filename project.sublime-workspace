@@ -157,43 +157,17 @@
 			"file": "dev/index.html",
 			"settings":
 			{
-				"buffer_size": 1467,
+				"buffer_size": 2111,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "dev/js/section/section.js",
+			"file": "dev/components/hero/hero.html",
 			"settings":
 			{
-				"buffer_size": 547,
+				"buffer_size": 788,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dev/js/navigation/navigation.js",
-			"settings":
-			{
-				"buffer_size": 1903,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dev/components/contact/contact.css",
-			"settings":
-			{
-				"buffer_size": 992,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dev/settings/animations.css",
-			"settings":
-			{
-				"buffer_size": 400,
 				"line_ending": "Windows"
 			}
 		}
@@ -244,6 +218,7 @@
 		"/C/Users/Administrador/Desktop/rentavial/dev/components",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/contact",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/equipment",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/hero",
 		"/C/Users/Administrador/Desktop/rentavial/dev/js",
 		"/C/Users/Administrador/Desktop/rentavial/dev/js/navigation",
 		"/C/Users/Administrador/Desktop/rentavial/dev/js/section",
@@ -251,6 +226,11 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/hero/hero.css",
+		"/C/Users/Administrador/Downloads/Morphext-2.4.4/Morphext-2.4.4/dist/morphext.css",
+		"/C/Users/Administrador/Desktop/rentavial/dev/js/section/section.js",
+		"/C/Users/Administrador/Desktop/rentavial/dev/js/navigation/navigation.js",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/contact/contact.css",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/navigation/navigation.html",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/about/about.css",
 		"/C/Users/Administrador/Desktop/rentavial/dev/settings/animations.css",
@@ -259,7 +239,6 @@
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/equipment/equipment.css",
 		"/C/Users/Administrador/Desktop/momondo/dev/components/flight-card.css",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/contact/contact.html",
-		"/C/Users/Administrador/Desktop/rentavial/dev/components/contact/contact.css",
 		"/C/Users/Administrador/Desktop/momondo/dev/main.css",
 		"/C/Users/Administrador/Desktop/momondo/dev/tools/clearfix.css",
 		"/C/Users/Administrador/Downloads/- Work/momondo/momondo/prod/main.css",
@@ -283,12 +262,10 @@
 		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/styles/settings/_gradient.pcss",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/transport/transport.css",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/works/works.html",
-		"/C/Users/Administrador/Desktop/rentavial/dev/js/section/section.js",
 		"/C/Users/Administrador/Desktop/rentavial/dev/settings/base.css",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/header/header.html",
 		"/C/Users/Administrador/Desktop/rentavial/prod/main.css",
 		"/C/Users/Administrador/Desktop/rentavial/dev/js/works/works.js",
-		"/C/Users/Administrador/Desktop/rentavial/dev/js/navigation/navigation.js",
 		"/C/Users/Administrador/Dropbox/zizcate/zizcate/index.html",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/transport/transport.html",
 		"/C/Users/Administrador/Desktop/rentavial/dev/settings/media.css",
@@ -299,7 +276,6 @@
 		"/C/Users/Administrador/Desktop/rentavial/dev/settings/links.css",
 		"/C/Users/Administrador/Downloads/index.html",
 		"/C/Users/Administrador/Desktop/rentavial/dev/js/pop.js",
-		"/C/Users/Administrador/Desktop/rentavial/dev/components/hero/hero.css",
 		"/C/Users/Administrador/Desktop/rentavial/dev/js/owl/owl.carousel.js",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/owl/owl.carousel.css",
 		"/C/Users/Administrador/Desktop/rentavial/dev/js/owl/owl.carousel.min.js",
@@ -350,6 +326,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"owl",
 			"top;",
 			"top",
 			".nav-",
@@ -449,7 +426,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -480,7 +457,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -509,7 +486,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -518,15 +495,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1467,
+						"buffer_size": 2111,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								378,
-								378
+								524,
+								524
 							]
 						],
 						"settings":
@@ -536,129 +513,38 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 17.0,
+						"translation.y": 20.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "dev/js/section/section.js",
+					"file": "dev/components/hero/hero.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 547,
+						"buffer_size": 788,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								543,
-								543
+								788,
+								788
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "dev/js/navigation/navigation.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1903,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								781,
-								781
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "dev/components/contact/contact.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 992,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								300,
-								300
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 42.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "dev/settings/animations.css",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 400,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								371,
-								333
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
