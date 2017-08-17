@@ -12,7 +12,7 @@
 		transition-property: transform;
 		transition-duration: 0.25s;
 		transition-timing-function: ease-in-out;
-		padding: 45px 10px 10px 10px;
+		padding: 55px 10px 10px 10px;
 		z-index: -1;
 		
 		@nest

@@ -12,7 +12,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 45px;
+	height: 55px;
 	
 	@media (--mq-range-min-medium) {
 		padding: 0 10px;
@@ -26,13 +26,14 @@
 
 .header-logo {
 	display: block;
+	line-height: 0;
 
 	@media (--mq-range-min-large) {
 		padding: 12px 0;
 	}
 
 	img {
-		height: 30px;
+		height: 35px;
 		width: auto;
 
 		@media (--mq-range-min-large) {
@@ -44,13 +45,13 @@
 .header-hamburger {
 	display: flex;
 	align-items: center;
-	width: 30px;
-	height: 21px;
+	width: 36px;
+	height: 26px;
 	position: relative;
 	margin-right: 10px;
 
 	.header-hamburger-inner {
-		height: 3px;
+		height: 4px;
 		width: 100%;
 		background-color: var(--white);
 		transition-property: opacity, background-color;
@@ -61,7 +62,7 @@
 	&:before,
 	&:after {
 		content: '';
-		height: 3px;
+		height: 4px;
 		background-color: var(--white);
 		width: 100%;
 		position: absolute;
@@ -99,11 +100,11 @@
 		}
 
 		&:before {
-			transform: rotate(45deg) translate(5px, 8px);
+			transform: rotate(45deg) translate(8px, 8px);
 		}
 
 		&:after {
-			transform: rotate(-45deg) translate(5px, -8px);
+			transform: rotate(-45deg) translate(8px, -8px);
 		}
 	}
 }

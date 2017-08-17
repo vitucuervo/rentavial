@@ -19,13 +19,14 @@
 
 .contact-map {
 	@mixin in-viewport-second-delay;
-	height: 200px;
 	position: relative;
 	margin-top: 25px;
 	transition-property: opacity;
 	transition-duration: 0.25s;
 	transition-timing-function: ease-in-out;
 	opacity: 0;
+	flex-grow: 1;
+	flex-basis: 200px;
 
 	@media (--mq-range-min-large) {
 		width: 50%;

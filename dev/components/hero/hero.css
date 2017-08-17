@@ -69,6 +69,7 @@
 	text-shadow: 1px 1px 1px var(--black);
 	transform: translateX(-50%);
 	z-index: 1;
+	pointer-events: none;
 
 	@media (--mq-range-min-small) {
 		font-size: 32px;

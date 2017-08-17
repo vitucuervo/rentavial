@@ -4,16 +4,68 @@
 		"selected_items":
 		[
 			[
+				"trans",
+				"transform-origin"
+			],
+			[
+				"ske",
+				"skewX()"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"text-tr",
+				"text-transform"
+			],
+			[
+				"tr",
+				"translateY()"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"inli",
+				"inline-flex"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"eas",
+				"ease-in-out"
+			],
+			[
 				"fle",
 				"flex-basis: "
 			],
 			[
 				"mar",
 				"margin-top"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"padi",
@@ -28,24 +80,12 @@
 				"width"
 			],
 			[
-				"pa",
-				"padding-top"
-			],
-			[
-				"trans",
-				"transition-delay: "
-			],
-			[
 				"text",
 				"text-shadow"
 			],
 			[
 				"bac",
 				"background-image: "
-			],
-			[
-				"te",
-				"text-shadow: "
 			],
 			[
 				"ba",
@@ -82,10 +122,6 @@
 			[
 				"ma",
 				"margin-bottom: "
-			],
-			[
-				"tr",
-				"translateX()"
 			],
 			[
 				"background-c",
@@ -157,7 +193,7 @@
 			"file": "dev/index.html",
 			"settings":
 			{
-				"buffer_size": 2111,
+				"buffer_size": 2133,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -166,7 +202,16 @@
 			"file": "dev/components/hero/hero.html",
 			"settings":
 			{
-				"buffer_size": 788,
+				"buffer_size": 826,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dev/components/hero/hero.css",
+			"settings":
+			{
+				"buffer_size": 2215,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -226,6 +271,11 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Administrador/Desktop/rentavial/dev/js/morphext/morphext.js",
+		"/C/Users/Administrador/Downloads/animate.css",
+		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/styles/animations/_fade.pcss",
+		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/styles/settings/_animation.pcss",
+		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/styles/settings/_transition.pcss",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/hero/hero.css",
 		"/C/Users/Administrador/Downloads/Morphext-2.4.4/Morphext-2.4.4/dist/morphext.css",
 		"/C/Users/Administrador/Desktop/rentavial/dev/js/section/section.js",
@@ -250,7 +300,6 @@
 		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/form-controls/components/tab-strip/tab-strip-item.pcss",
 		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/form-controls/components/button/themes/_theme-negative.pcss",
 		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/form-controls/components/button/button-group/button-group.pcss",
-		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/styles/animations/_fade.pcss",
 		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/styles/animations/_animations.pcss",
 		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/styles/settings/_typography.pcss",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/equipment/equipment.html",
@@ -426,7 +475,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -457,7 +506,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -486,7 +535,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -495,15 +544,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2111,
+						"buffer_size": 2133,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								524,
-								524
+								1537,
+								1537
 							]
 						],
 						"settings":
@@ -513,10 +562,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 20.0,
+						"translation.y": 230.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -525,26 +574,57 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 788,
+						"buffer_size": 826,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								788,
-								788
+								739,
+								739
 							]
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "dev/components/hero/hero.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1905,
+								1905
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1232.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
