@@ -24,6 +24,11 @@
 		@@include('components/equipment/equipment.html')
 		@@include('components/contact/contact.html')
 		
+		<div class="afc-button" style="width: 10px; height: 10px; position: fixed; bottom: 0; left: 0;"></div>
+		<div class="afc" style="position: fixed; z-index: 10; top: 0; right: 0; bottom: 0; left: 0; background-color: rgba(0,0,0, 0.9); justify-content: center; align-items: center; display: none;">
+			<iframe id="afc-video" width="585" height="400" src="https://www.youtube.com/embed/v4yWID9HIlo" frameborder="0"></iframe>
+		</div>
+
 		<script>
 			// Settings hero slider
 			$('.owl-carousel').owlCarousel({
@@ -54,6 +59,14 @@
 			        // Called after the entrance animation is executed.
 			    }
 			});
+
+			$(".afc-button").click(function () {
+			    $(".afc").css("display", "flex");
+			    $("#afc-video")[0].src += "?autoplay=1";
+		    });
+		    $(".afc").click(function () {
+		    	$(this).hide();
+		    });
 		</script>
 	</body>
 </html>
