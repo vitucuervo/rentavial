@@ -1379,6 +1379,7 @@ a:hover, a:active, a:focus {
     }
 }
 .equipment-item {
+    width: 100%;
     margin-bottom: 15px;
     -webkit-transition-property: opacity;
     transition-property: opacity;
@@ -1390,6 +1391,7 @@ a:hover, a:active, a:focus {
 }
 @media (min-width: 990px) {
     .equipment-item {
+        width: auto;
         margin-bottom: 50px;
         display: -webkit-box;
         display: -ms-flexbox;

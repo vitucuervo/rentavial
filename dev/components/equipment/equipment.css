@@ -41,6 +41,7 @@
 }
 
 .equipment-item {
+	width: 100%;
 	margin-bottom: 15px;
 	transition-property: opacity;
 	transition-duration: 0.25s;
@@ -48,6 +49,7 @@
 	opacity: 0;
 
 	@media (--mq-range-min-large) {
+		width: auto;
 		margin-bottom: var(--equipment-categories-item-margin);
 		display: flex;
 		justify-content: flex-start;
