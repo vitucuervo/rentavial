@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"align",
+				"align-items"
+			],
+			[
+				"flex-",
+				"flex-basis"
+			],
+			[
+				"fle",
+				"flex-grow"
+			],
+			[
 				"trans",
 				"transform-origin"
 			],
@@ -58,10 +70,6 @@
 			[
 				"eas",
 				"ease-in-out"
-			],
-			[
-				"fle",
-				"flex-basis: "
 			],
 			[
 				"mar",
@@ -193,25 +201,7 @@
 			"file": "dev/index.html",
 			"settings":
 			{
-				"buffer_size": 2133,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dev/components/hero/hero.html",
-			"settings":
-			{
-				"buffer_size": 826,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "dev/components/hero/hero.css",
-			"settings":
-			{
-				"buffer_size": 2215,
+				"buffer_size": 2775,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -261,27 +251,26 @@
 		"/C/Users/Administrador/Desktop/rentavial",
 		"/C/Users/Administrador/Desktop/rentavial/dev",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components",
-		"/C/Users/Administrador/Desktop/rentavial/dev/components/contact",
-		"/C/Users/Administrador/Desktop/rentavial/dev/components/equipment",
-		"/C/Users/Administrador/Desktop/rentavial/dev/components/hero",
 		"/C/Users/Administrador/Desktop/rentavial/dev/js",
-		"/C/Users/Administrador/Desktop/rentavial/dev/js/navigation",
-		"/C/Users/Administrador/Desktop/rentavial/dev/js/section",
 		"/C/Users/Administrador/Desktop/rentavial/dev/settings"
 	],
 	"file_history":
 	[
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/hero/hero.html",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/hero/hero.css",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/contact/contact.css",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/header/header.css",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/navigation/navigation.css",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/header/header.html",
+		"/C/Users/Administrador/Desktop/rentavial/dev/components/navigation/navigation.html",
 		"/C/Users/Administrador/Desktop/rentavial/dev/js/morphext/morphext.js",
 		"/C/Users/Administrador/Downloads/animate.css",
 		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/styles/animations/_fade.pcss",
 		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/styles/settings/_animation.pcss",
 		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/styles/settings/_transition.pcss",
-		"/C/Users/Administrador/Desktop/rentavial/dev/components/hero/hero.css",
 		"/C/Users/Administrador/Downloads/Morphext-2.4.4/Morphext-2.4.4/dist/morphext.css",
 		"/C/Users/Administrador/Desktop/rentavial/dev/js/section/section.js",
 		"/C/Users/Administrador/Desktop/rentavial/dev/js/navigation/navigation.js",
-		"/C/Users/Administrador/Desktop/rentavial/dev/components/contact/contact.css",
-		"/C/Users/Administrador/Desktop/rentavial/dev/components/navigation/navigation.html",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/about/about.css",
 		"/C/Users/Administrador/Desktop/rentavial/dev/settings/animations.css",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/works/works.css",
@@ -304,22 +293,18 @@
 		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/styles/settings/_typography.pcss",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/equipment/equipment.html",
 		"/C/Users/Administrador/Desktop/rentavial/dev/js/equipment/equipment.js",
-		"/C/Users/Administrador/Desktop/rentavial/dev/components/navigation/navigation.css",
-		"/C/Users/Administrador/Desktop/rentavial/dev/components/header/header.css",
 		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/styles/bases/_b-layout.pcss",
 		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/styles/settings/_layout.pcss",
 		"/C/Users/Administrador/Downloads/- Work/as-20170722T090833Z-001/as/styles/settings/_gradient.pcss",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/transport/transport.css",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/works/works.html",
 		"/C/Users/Administrador/Desktop/rentavial/dev/settings/base.css",
-		"/C/Users/Administrador/Desktop/rentavial/dev/components/header/header.html",
 		"/C/Users/Administrador/Desktop/rentavial/prod/main.css",
 		"/C/Users/Administrador/Desktop/rentavial/dev/js/works/works.js",
 		"/C/Users/Administrador/Dropbox/zizcate/zizcate/index.html",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/transport/transport.html",
 		"/C/Users/Administrador/Desktop/rentavial/dev/settings/media.css",
 		"/C/Users/Administrador/Dropbox/backup-pheegooz/views/index.html",
-		"/C/Users/Administrador/Desktop/rentavial/dev/components/hero/hero.html",
 		"/C/Users/Administrador/Desktop/rentavial/prod/index.html",
 		"/C/Users/Administrador/Desktop/rentavial/dev/components/about/about.html",
 		"/C/Users/Administrador/Desktop/rentavial/dev/settings/links.css",
@@ -375,6 +360,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"5px",
 			"owl",
 			"top;",
 			"top",
@@ -475,7 +461,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -506,7 +492,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -535,7 +521,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -544,15 +530,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2133,
+						"buffer_size": 2775,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1537,
-								1537
+								1613,
+								1613
 							]
 						],
 						"settings":
@@ -562,69 +548,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 230.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "dev/components/hero/hero.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 826,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								739,
-								739
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 229.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "dev/components/hero/hero.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2215,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1905,
-								1905
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Afterglow-monokai.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1232.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]

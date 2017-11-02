@@ -85,22 +85,32 @@
 
 	@nest
 	.category-demolitions & {
-		background-image: url("./images/works/demolitions-cover.jpg");
+		background-image: url("./images/works/demolitions.jpg");
 	}
 
 	@nest
-	.category-02 & {
-		background-image: url("./images/works/02.jpg");
+	.category-clearance & {
+		background-image: url("./images/works/clearance.jpg");
 	}
 
 	@nest
-	.category-03 & {
-		background-image: url("./images/works/03.jpg");
+	.category-leveling & {
+		background-image: url("./images/works/leveling.jpg");
 	}
 
 	@nest
-	.category-04 & {
-		background-image: url("./images/works/04.jpg");
+	.category-stuck & {
+		background-image: url("./images/works/stuck.jpg");
+	}
+
+	@nest
+	.category-excavations & {
+		background-image: url("./images/works/excavations.jpg");
+	}
+
+	@nest
+	.category-pavement & {
+		background-image: url("./images/works/pavement.jpg");
 	}
 }
 
@@ -120,7 +130,7 @@
 		position: absolute;
 		right: 0;
 		bottom: 8px;
-		display: block;
+		display: none; // Oculto hasta tener el contenido
 		color: var(--orange);
 		font-size: 30px;
 		line-height: 0;
